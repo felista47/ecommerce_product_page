@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | E-commerce product page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="desk">
+                <div class="logo"><img src="images/logo.svg"></div>
+                <ul>
+                    <li>
+                        <a href="collections">Collections</a>
+                    </li>
+                    <li>
+                        <a href="men">Men</a>
+                    </li>
+                    <li>
+                        <a href="women">Women</a>
+                    </li>
+                    <li>
+                        <a href="about">About</a>
+                    </li>
+                    <li>
+                        <a href="contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="menu">
+                    <img src="images/icon-cart.svg" height="16px" width="16px">
+                    <img src="images/image-avatar.png" height="42px" width="42px">
+                </div>
+            </div>
+            <div class="mobNav">
+                <img src="./images/icon-menu.svg" id="menuicon" alt="" class="menu-icon">
+                <h2 class="logo">sneakers</h2>
+                <div class="menu">
+                    <img src="./images/icon-cart.svg" alt="" class="carticon">
+                    <img src="./images/image-avatar.png" alt="" class="avatar">
+                </div>
+                <div class="mobMenu" id="mobmenu">
+                    <img src="./images/icon-close.svg" alt="" id="close" class="close">
+                    <ul>
+                        <li>
+                            <a href="#">Collection</a>
+                        </li>
+                        <li>
+                            <a href="#">Men</a>
+                        </li>
+                        <li>
+                            <a href="#">Women</a>
+                        </li>
+
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <hr>
+        <div class="content">
+
+            <div class="left">
+                <div class="one">
+                    <img id="product1" src="images/image-product-1.jpg">
+                    <div class="arrows">
+                        <img src="./images/icon-previous.svg " id="prev " class="prev ">
+                        <img src="./images/icon-next.svg " id="next" class="next ">
+                    </div>
+                </div>
+                <div class="two ">
+                    <a href="images/image-product-1.jpg " data-lightbox="product "><img src="images/image-product-1-thumbnail.jpg " width="60 "></a>
+                    <a href="images/image-product-2.jpg " data-lightbox="product "><img src="images/image-product-2-thumbnail.jpg " width="60 "></a>
+                    <a href="images/image-product-3.jpg " data-lightbox="product "><img src="images/image-product-3-thumbnail.jpg " width="60 "></a>
+                    <a href="images/image-product-4.jpg " data-lightbox="product "><img src="images/image-product-4-thumbnail.jpg " width="60 "></a>
+                </div>
+            </div>
+            <div class="right ">
+                <h5>SNEAKER COMPANY</h5>
+                <h1>Fall Limited Edition Sneakers</h1>
+                <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                <div class="discount ">
+                    <h2>$125.00</h2>
+                    <button id="button1">50%</button>
+                </div>
+                <p style="text-decoration:line-through; color:hsl(220, 14%, 75%) ">$250.00</p>
+                <div class="cart ">
+                    <button id="button2"><img src="images/icon-minus.svg ">0<img id="img2 " src="images/icon-plus.svg "></button>
+                    <button id="button3"><img src="images/icon-cart.svg ">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="attribution ">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by
+        <a href="# ">Felista Manoti</a>.
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
